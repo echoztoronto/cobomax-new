@@ -1,3 +1,7 @@
+## Stacks
+MERN(MongoDB, Express, React, Node)
+Material UI, react-bootstrap, Fullcalendar, Cloudinary
+
 ## Setup
 ```
 # create and run local Mongo database in the root directory of the repo
