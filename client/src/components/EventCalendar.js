@@ -275,8 +275,8 @@ const EventCalendar = props => {
         dayMaxEvents={false}
         weekends={true}
         allDaySlot={false}
-        slotMinTime={'08:00:00'}
-        slotMaxTime={'19:00:00'}
+        slotMinTime={'09:00:00'}
+        slotMaxTime={'21:00:00'}
         themeSystem={'bootstrap'}
         contentHeight={580}
         displayEventTime={false}
