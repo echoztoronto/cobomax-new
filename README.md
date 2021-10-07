@@ -19,6 +19,26 @@ cd client
 npm install
 ```
 
+## Local Development
+Console 1: 
+```
+cd client
+npm start
+```
+
+
+Console 2: 
+```
+node server.js
+```
+
+
+Console 3: 
+```
+mongod --dbpath mongo-data
+```
+
+
 ## Development
 
 ```
