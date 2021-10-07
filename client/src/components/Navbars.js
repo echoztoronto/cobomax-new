@@ -6,7 +6,7 @@ export default function Navbars() {
         <Navbar className="navbar" variant="light" bg="light" expand="lg" fixed="top">
             <Navbar.Brand href="/">
                 <img
-                    src="/logo.jpg"
+                    src="logo.jpg"
                     width="100"
                     height="30"
                     className="d-inline-block align-top"
