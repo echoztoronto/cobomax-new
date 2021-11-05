@@ -50,7 +50,7 @@ const EventCalendar = props => {
       setEventList(Object.values(responseJson))
     })
     .catch((error) => {
-      console.error(error)
+      console.error(error.toString())
     });
   }, []);
 
@@ -131,12 +131,12 @@ const EventCalendar = props => {
             setAdminMessage(`new event added: ${responseJson.title}`)
           })
           .catch((error) => {
-            console.error(error);
+            console.error(error.toString());
             setAdminMessage('server failed')
           });
       })
       .catch(error => {
-          console.log(error)
+          console.log(error.toString())
       })
   }
 
@@ -170,7 +170,7 @@ const EventCalendar = props => {
       setAdminMessage(`event modified: ${event_info.title}`)
     })
     .catch((error) => {
-      console.error(error);
+      console.error(error.toString());
       setAdminMessage('server failed')
     });
 
@@ -196,7 +196,7 @@ const EventCalendar = props => {
       setAdminMessage(`deleted event: ${selected.title}`)
     })
     .catch((error) => {
-      console.error(error);
+      console.error(error.toString());
     });
 
   }
