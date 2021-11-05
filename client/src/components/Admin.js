@@ -66,7 +66,7 @@ const Admin = () => {
             } else setErrorMessage('login failed')
         })
         .catch((error) => {
-            console.error(error.toString())
+            console.error(error)
         });
     }
 
