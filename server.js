@@ -144,9 +144,9 @@ app.post('/adminVerify', (req, res) => {
     }, 
     error => {
       if (isMongoError(error)) { 
-        res.status(500).send({message: "Internal server error"})
+        res.status(500).send('Internal server error')
       } else {
-        res.status(400).send({message: "Bad Request"}) 
+        res.status(400).send('Bad Request') 
       }
     }
   )
