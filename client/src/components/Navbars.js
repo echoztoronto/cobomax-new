@@ -17,8 +17,8 @@ export default function Navbars() {
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="/">About</Nav.Link>
-                    <Nav.Link href="/program">Programs</Nav.Link>
-                    <Nav.Link href="/calendar">Calendar</Nav.Link>
+                    {/* <Nav.Link href="/program">Programs</Nav.Link>
+                    <Nav.Link href="/calendar">Calendar</Nav.Link> */}
                     <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
